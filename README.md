@@ -42,7 +42,7 @@ danledinh/rattle \
 <gene|iso>
 ```
 
-- Trim consensus contigs 
+- Trim consensus contigs (hard-coded trim parameters)
 ```
 python3 trim_fa.py \
 <untrimmed_transcriptome.fa> \
