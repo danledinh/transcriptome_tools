@@ -98,7 +98,7 @@ blastx \
 -query <transcriptome.fa> \
 -db refseq_protein \
 -task blastx-fast \
--num_threads 64 \
+-num_threads <threads> \
 -matrix BLOSUM45 \
 -out <output.txt> \
 -outfmt "6 evalue qcovs qseqid sseqid staxids sscinames scomnames sblastnames sskingdoms stitle" 
